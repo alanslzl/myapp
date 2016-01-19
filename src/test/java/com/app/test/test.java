@@ -15,7 +15,7 @@ import org.springframework.test.context.transaction.TransactionConfiguration;
 import com.myapp.app.entity.Permission;
 import com.myapp.app.entity.Role;
 import com.myapp.app.entity.User;
-import com.myapp.common.IBaseService;
+import com.myapp.app.service.IBaseService;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {"classpath:spring-config/spring-core.xml","classpath:spring-config/mvc/springmvc.xml"})
